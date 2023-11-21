@@ -1,0 +1,68 @@
+  .navegationBar{
+    background-color: #FB613F;
+}
+
+/* Estilos para el contenedor del menú desplegable */
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .filtros{
+    background-color: #F1F1F1;
+  }
+  
+  .form-check label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-label-text {
+    margin-right: 10px;
+  }
+  
+  .subtexto{
+    color: #7a7272;
+  }
+  /* Estilos para el botón que activa el menú desplegable */
+  .dropdown-toggle {
+    background-color: #E73C17;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .detalle{
+    background-color: #EDEDED;
+    height: 50px;
+  }
+  .medium-text{
+    font-size: 10px;
+  }
+  /* Estilos para la lista desplegable */
+  .dropdown-menu {
+    color: #fff;
+    display: none;
+    position: absolute;
+    background-color: #494444;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos para los elementos de la lista */
+  .dropdown-menu li {
+    padding: 10px 20px;
+    
+  }
+  
+  /* Cambiar el color del enlace al pasar el ratón por encima */
+  .dropdown-menu li a:hover {
+    color: #3498db;
+  }
+  
+  /* Mostrar la lista desplegable cuando se pasa el ratón por encima del botón */
+  .custom-dropdown:hover .dropdown-menu {
+    display: block;
+  }
